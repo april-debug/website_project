@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>April and Henry Portfolio</title>
 
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 <body>
 	<header id="header">
@@ -24,6 +25,13 @@
 				<li class="menu_item">
 					<a href="#resume" class="menu_link">Resume</a>
 				</li>
+				<li class="menu_item">
+					<a href="#portfolio" class="menu_link">Portfolio</a>
+				</li>
+				<li class="menu_item">
+					<a href="#contact" class="menu_link">Contacts</a>
+				</li>
+
 				<ion-icon name="close-outline" class="close_icon"></ion-icon>
 			</ul>
 			<ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
@@ -36,25 +44,18 @@
 			<div class="hero_container container grid">
 				<div class="hero_container">
 					<h4>Hi there,</h4>
-					<h1>We are Designer, 
-						<br>
-						Developer, 
-						<br>
-						Freelancer
+					<h1>We are 
+						<span class="typed" data-typed-items="Designer, Developer, Freelancer"></span>
 					</h1>
 					<p>
-						We're creative designer based in Sariaya Quezon Province, and We are very passionate and dedicated to our work, Growing up together and attending same school we got to know each other.
+						We are a team of highly skilled creative designers situated in Sariaya, Quezon Province. Our unwavering dedication and passion for our craft drive our commitment to delivering exceptional results. Through our shared journey of growing up and attending the same school, we've fostered a deep understanding of each other, further solidifying our collaborative capabilities.
 					</p>
 					<div class="hero_social">
-						<a href="#"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
-						<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-						<a href="#"><ion-icon name="logo-github"></ion-icon></a>
-						<a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+						<a href="https://web.facebook.com/april.lavarro73/"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+						<a href="https://www.instagram.com/aprl_lvrro/"><ion-icon name="logo-instagram"></ion-icon></a>
+						<a href="https://github.com/april-debug"><ion-icon name="logo-github"></ion-icon></a>
+						<a href="https://twitter.com/Aprillavarro2"><ion-icon name="logo-twitter"></ion-icon></a>
 					</div>
-					<a href="#contact" class="btn">
-						Read More
-						<ion-icon name="chevron-forward-outline"></ion-icon>
-					</a>
 				</div>
 				<div class="hero_img">
 					<img src="apple.png" alt="" class="img-fluid">
@@ -67,16 +68,11 @@
 
 			<div class="about_container container grid">
 				<div class="about_img">
-					<img src="about.jfif" alt="">
+					<img src="about.png" alt="">
 				</div>
 				<div class="about_content">
 					<h1> We make designs</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Designing is one of our hobbies, doing it for fun and for business is one of the best thing happen to us, With our team work everything is possible. Designing a layout, storyboard and website is one of our field.</p>
 					<div class="about_info">
 						<div>
 							<span class="number">200</span>
@@ -99,7 +95,13 @@
 				<div class="resume_tabs">
 					<ul>
 						<li>
-							<a href="#page-1" class="current">Our Education</a>
+							<a href="#page-1" class="current">Education</a>
+						</li>
+						<li>
+							<a href="#page-2">Experience</a>
+						</li>
+						<li>
+							<a href="#page-3">Skills</a>
 						</li>
 					</ul>
 				</div>
@@ -111,15 +113,32 @@
 								<ion-icon name="school-outline"></ion-icon>
 							</div>
 							<div class="resume_wrap-content">
+								<h1>April</h1>
 								<span class="date">2022-2025</span>
 								<h4>Bachelor in Industrial Technology</h4>
 								<span class="position">College of Sciences Technology and Communication Inc.</span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<br>
+								<br>
+								<h1>Henry</h1>
+								<span class="date">2022-2025</span>
+								<h4>Bachelor in Industrial Technology</h4>
+								<span class="position">College of Sciences Technology and Communication Inc.</span>						</div>
+						</div>
+						<div class="resume_wrap">
+							<div class="resume_wrap-icon">
+								<ion-icon name="school-outline"></ion-icon>
+							</div>
+							<div class="resume_wrap-content">
+								<h1>April</h1>
+								<span class="date">2020-2022</span>
+								<h4>Senior High School</h4>
+								<span class="position">College of Sciences Technology and Communication Inc.</span>
+								<br>
+								<br>
+								<h1>Henry</h1>
+								<span class="date">2020-2022</span>
+								<h4>Senior High School</h4>
+								<span class="position">College of Sciences Technology and Communication Inc.</span>
 							</div>
 						</div>
 						<div class="resume_wrap">
@@ -127,8 +146,29 @@
 								<ion-icon name="school-outline"></ion-icon>
 							</div>
 							<div class="resume_wrap-content">
-								<span class="date">2020-2022</span>
-								<h4>Senior High School</h4>
+								<h1>April</h1>
+								<span class="date">2016-2020</span>
+								<h4>High School</h4>
+								<span class="position">Sariaya Institute Inc. </span>
+								<br>
+								<br>
+								<h1>Henry</h1>
+								<span class="date">2016-2020</span>
+								<h4>High School</h4>
+								<span class="position">Lutucan National High School</span>
+							</div>
+						</div>
+					</div>
+
+					<div id="page-2" class="page two">
+						<div class="page_heading">Experience</div>
+						<div class="resume_wrap">
+							<div class="resume_wrap-icon">
+								<ion-icon name="briefcase-outline"></ion-icon>
+							</div>
+							<div class="resume_wrap-content">
+								<span class="date">2027-2028</span>
+								<h4>IT Professors</h4>
 								<span class="position">College of Sciences Technology and Communication Inc.</span>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -140,12 +180,28 @@
 						</div>
 						<div class="resume_wrap">
 							<div class="resume_wrap-icon">
-								<ion-icon name="school-outline"></ion-icon>
+								<ion-icon name="briefcase-outline"></ion-icon>
 							</div>
 							<div class="resume_wrap-content">
-								<span class="date">2016-2020</span>
-								<h4>High School</h4>
-								<span class="position">Sariaya Institute Inc. </span>
+								<span class="date">2025-2026</span>
+								<h4>Full Stack Developer</h4>
+								<span class="position">Freelance</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+						<div class="resume_wrap">
+							<div class="resume_wrap-icon">
+								<ion-icon name="briefcase-outline"></ion-icon>
+							</div>
+							<div class="resume_wrap-content">
+								<span class="date">2024-2025</span>
+								<h4>Front-End Developer</h4>
+								<span class="position">Gawa-Gawa Lang Company </span>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -155,12 +211,278 @@
 							</div>
 						</div>
 					</div>
-					
+
+					<div id="page-3" class="page three">
+						<div class="page_heading">Skills</div>
+						<div class="progressBoxs grid">
+							<div class="progressBox">
+								<div class="progress_name">
+									<span>HTML</span>
+									<span>90%</span>
+								</div>
+								<div class="progress">
+									<div class="progress_bar" style="width:90%;"></div>
+								</div>
+							</div>
+
+							<div class="progressBox">
+								<div class="progress_name">
+									<span>CSS</span>
+									<span>85%</span>
+								</div>
+								<div class="progress">
+									<div class="progress_bar" style="width:85%;"></div>
+								</div>
+							</div>
+
+							<div class="progressBox">
+								<div class="progress_name">
+									<span>JavaScript</span>
+									<span>70%%</span>
+								</div>
+								<div class="progress">
+									<div class="progress_bar" style="width:70%;"></div>
+								</div>
+							</div>
+
+							<div class="progressBox">
+								<div class="progress_name">
+									<span>C#</span>
+									<span>60%</span>
+								</div>						
+								<div class="progress">
+									<div class="progress_bar" style="width:60%%;"></div>
+								</div>
+							</div>
+
+							<div class="progressBox">
+								<div class="progress_name">
+									<span>C++</span>
+									<span>50%</span>
+								</div>
+								<div class="progress">
+									<div class="progress_bar" style="width:50%;"></div>
+								</div>
+							</div>
+
+							<div class="progressBox">
+								<div class="progress_name">
+									<span>SQL</span>
+									<span>50%</span>
+								</div>
+								<div class="progress">
+									<div class="progress_bar" style="width:50%;"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div> 
 		</section>
 
+		<section class="portfolio section" id="portfolio">
+    		<h2 class="section_title">Portfolio</h2>
+
+    		<div class="portfolio_container portfolio container">
+        		<div class="portfolio_wrap-container">
+            		<div class="portfolio_item filter-app">
+                		<div class="portfolio_wrap">
+                    		<img src="1.jpg" alt="" class="img-fluid">
+                    		<div class="portfolio_info">
+                        		<h4>App 1</h4>
+                        		<p>App</p>
+                        		<div class="portfolio_links">
+                            		<a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            		<a href="#"><ion-icon name="link-outline"></ion-icon></i></a>
+                        		</div>
+                    		</div>
+                		</div>
+            		</div>
+
+            		<div class="portfolio_item filter-app">
+                		<div class="portfolio_wrap">
+                    		<img src="2.jpg" alt="" class="img-fluid">
+                    		<div class="portfolio_info">
+                        		<h4>App 1</h4>
+                        		<p>App</p>
+                        		<div class="portfolio_links">
+                            		<a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            		<a href="#"><ion-icon name="link-outline"></ion-icon></i></a>
+                        		</div>
+                    		</div>
+                		</div>
+            		</div>
+
+            		<div class="portfolio_item filter-app">
+                		<div class="portfolio_wrap">
+                    		<img src="3.jpg" alt="" class="img-fluid">
+                    		<div class="portfolio_info">
+                        		<h4>App 2</h4>
+                        		<p>App</p>
+                        		<div class="portfolio_links">
+                            		<a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            		<a href="#"><ion-icon name="link-outline"></ion-icon></i></a>
+                        		</div>
+                    		</div>
+                		</div>
+            		</div>  
+
+            		<div class="portfolio_item filter-card">
+                		<div class="portfolio_wrap">
+                    		<img src="4.jpg" alt="" class="img-fluid">
+                    		<div class="portfolio_info">
+                        		<h4>Card 2</h4>
+                        		<p>Card</p>
+                        		<div class="portfolio_links">
+                            		<a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            		<a href="#"><ion-icon name="link-outline"></ion-icon></i></a>   
+                        		</div>
+                    		</div>
+                		</div>
+            		</div>   
+
+            		<div class="portfolio_item filter-card">
+                		<div class="portfolio_wrap">
+                    		<img src="5.png" alt="" class="img-fluid">
+                    		<div class="portfolio_info">
+                        		<h4>Web 2</h4>
+                        		<p>Web</p>
+                        		<div class="portfolio_links">
+                            		<a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            		<a href="#"><ion-icon name="link-outline"></ion-icon></i></a>
+                        		</div>
+                    		</div>
+                		</div>
+            		</div>    
+
+            		<div class="portfolio_item filter-app">
+                		<div class="portfolio_wrap">
+                    		<img src="6.jpg" alt="" class="img-fluid">
+                    		<div class="portfolio_info">
+                        		<h4>App 3</h4>
+                        		<p>App</p>
+                        		<div class="portfolio_links">
+                            		<a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            		<a href="#"><ion-icon name="link-outline"></ion-icon></i></a>
+                        		</div>
+                    		</div>
+                		</div>
+            		</div>
+        		</div>
+    		</div>
+		</section>
+
+		<section class="testimonial section">
+			<h2 class="section_title">Testimonial</h2>
+
+			<div class="testimonial_container container swiper">
+				<div class="swiper-wrapper">
+
+					<div class="testimonial_item swiper-slide">
+						<i class='bx bxs-quote-alt-left'></i>
+						<p>Working with April and Henry has been a game-changer for our company. Their ability to transform our design concepts into flawless, responsive websites is unparalleled. The attention to detail and commitment to delivering high-quality code make them an invaluable asset to any project
+						</p>
+						<i class='bx bxs-quote-alt-right'></i>
+						<div class="img_name">
+							<img src="t5.jpg" alt="">
+							<span class="name">Anna Smith</span>
+							<span class="post">Clients</span>
+						</div>
+					
+
+					<div class="testimonial_item swiper-slide">
+						<i class='bx bxs-quote-alt-left'></i>
+						<p>April and Henry has an exceptional talent for turning design visions into interactive and visually stunning websites. Their understanding of user experience and proficiency in front-end technologies make them a go-to developer for our team. Collaborating with April and Henry has elevated our projects to new heights.
+						</p>
+						<i class='bx bxs-quote-alt-right'></i>
+						<div class="img_name">
+							<img src="t4.jpg" alt="">
+							<span class="name">John Smith</span>
+							<span class="post">Clients</span>
+						</div>
+					
+
+					<div class="testimonial_item swiper-slide">
+						<i class='bx bxs-quote-alt-left'></i>
+						<p>I can't recommend April and Henry enough! Their coding expertise and commitment to delivering projects on time and within scope have made a significant impact on our digital marketing efforts. April and Henry consistently goes above and beyond to ensure our websites are not only functional but also aesthetically pleasing
+						</p>
+						<i class='bx bxs-quote-alt-right'></i>
+						<div class="img_name">
+							<img src="t3.jpg" alt="">
+							<span class="name">David Williams</span>
+							<span class="post">Clients</span>
+						</div>
+					
+
+					<div class="testimonial_item swiper-slide">
+						<i class='bx bxs-quote-alt-left'></i>
+						<p>April and Henry is a true front-end wizard! As the founder of a coding academy, I've had the pleasure of witnessing their dedication to staying current with the latest technologies and trends. Their passion for clean and efficient code is inspiring, and they are a fantastic mentor to our aspiring developers.
+						</p>
+						<i class='bx bxs-quote-alt-right'></i>
+						<div class="img_name">
+							<img src="t2.jpg" alt="">
+							<span class="name">Robert Johnson</span>
+							<span class="post">Clients</span>
+						</div>
+					
+
+					<div class="testimonial_item swiper-slide">
+						<i class='bx bxs-quote-alt-left'></i>
+						<p>Hiring April and Henry was the best decision for our e-commerce platform. Their ability to optimize our site for both performance and user experience has resulted in increased conversions and customer satisfaction. April and Henry is not just a developer; they are a strategic partner invested in our success.
+						</p>
+						<i class='bx bxs-quote-alt-right'></i>
+						<div class="img_name">
+							<img src="t1.jpg" alt="">
+							<span class="name">Charles Uy</span>
+							<span class="post">Clients</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact section" id="contact">
+    		<h2 class="section_title">Contact Me</h2>
+
+   			<div class="contact_container container">
+    			<div class="contact_content">
+        			<div class="inputs">
+            			<input type="text" placeholder="Name">
+            			<input type="email" placeholder="Email">
+        			</div>
+        			<input type="password" placeholder="Password">
+        			<textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        			<a href="mailto:lavarrobaby@gmail.com" class="btn">Send Message
+            			<ion-icon name="chevron-forward-outline">
+        			</a>
+    			</div>
+   			</div>
+		</section>
+
+		<!-- ========= footer ========= -->
+		<footer>
+    		<div class="footer_bg">
+        		<div class="footer_container container">
+            		<div class="main_footer">
+                		<div class="footer_social">
+                    		<<a href="https://web.facebook.com/april.lavarro73/"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+							<a href="https://www.instagram.com/aprl_lvrro/"><ion-icon name="logo-instagram"></ion-icon></a>
+							<a href="https://github.com/april-debug"><ion-icon name="logo-github"></ion-icon></a>
+							<a href="https://twitter.com/Aprillavarro2"><ion-icon name="logo-twitter"></ion-icon></a>
+                		</div>
+                		<h3>AH Portfolio</h>
+                    		<p>rgevhpeihfipefhysinfeof-u hfpehfne gopgujebgfgejfeg </p>
+            		</div>
+            		<div class="footer_copy">&#169; AH Portfolio.All right reserved</div>
+        		</div>
+    		</div>
+		</footer>
+
 	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+	<script src="htpps://cdnjs.cloudflare.com/ajax/lib/mixitup/3.3.1/mixitup.min.js"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
